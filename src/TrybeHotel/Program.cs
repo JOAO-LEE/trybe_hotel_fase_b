@@ -7,6 +7,8 @@ using TrybeHotel.Models;
 using TrybeHotel.Services;
 using System.Security.Claims;
 
+
+// começando o projeto, #vqv!!! 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -54,7 +56,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization(options =>
 {
-    
+
 });
 
 var app = builder.Build();
