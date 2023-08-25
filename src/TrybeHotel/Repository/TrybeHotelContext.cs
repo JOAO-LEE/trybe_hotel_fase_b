@@ -12,9 +12,12 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
     public DbSet<City> Cities { get; set; }
     public DbSet<Hotel> Hotels { get; set; }
     public DbSet<Room> Rooms { get; set; }
+
+    public DbSet<User> Users { get; set; }
+    public DbSet<Booking> Bookings { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        string connectionString = "Server=localhost;Database=TrybeHotel;User=SA;Password=TrybeHotel12!;TrustServerCertificate=True";
+        string connectionString = "Server=localhost;Database=TrybeUser;User=SA;Password=TrybeHotel12!;TrustServerCertificate=True";
 
         optionsBuilder.UseSqlServer(connectionString);
     }
