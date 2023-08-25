@@ -68,7 +68,7 @@ public class IntegrationTest : IClassFixture<WebApplicationFactory<Program>>
                     // appContext.SaveChanges();
                     // appContext.Bookings.Add(new Booking { BookingId = 1, CheckIn = new DateTime(2023, 07, 02), CheckOut = new DateTime(2023, 07, 03), GuestQuant = 1, UserId = 2, RoomId = 1 });
                     // appContext.Bookings.Add(new Booking { BookingId = 2, CheckIn = new DateTime(2023, 07, 02), CheckOut = new DateTime(2023, 07, 03), GuestQuant = 1, UserId = 3, RoomId = 4 });
-                    appContext.SaveChanges();
+                    // appContext.SaveChanges();
                 }
             });
         }).CreateClient();

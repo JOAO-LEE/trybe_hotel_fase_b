@@ -1,0 +1,7 @@
+/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel.Test.Test/bin/Debug/net6.0/CoverletSourceRootsMapping
+/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel.Test.Test/obj/Debug/net6.0/TrybeHotel.test.test.csproj.AssemblyReference.cache
+/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel.Test.Test/obj/Debug/net6.0/MvcTestingAppManifest.json
+/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel.Test.Test/obj/Debug/net6.0/TrybeHotel.test.test.GeneratedMSBuildEditorConfig.editorconfig
+/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel.Test.Test/obj/Debug/net6.0/TrybeHotel.test.test.AssemblyInfoInputs.cache
+/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel.Test.Test/obj/Debug/net6.0/TrybeHotel.test.test.AssemblyInfo.cs
+/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel.Test.Test/obj/Debug/net6.0/TrybeHotel.test.test.csproj.CoreCompileInputs.cache

@@ -10,5 +10,5 @@ public class User
   public string? Email { get; set; }
   public string? Password { get; set; }
   public string? UserType { get; set; }
-  ICollection<Booking>? Bookings { get; set; }
+  public ICollection<Booking>? Bookings { get; set; }
 }
