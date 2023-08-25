@@ -8,13 +8,12 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
     {
         Seeder.SeedUserAdmin(this);
     }
-    public TrybeHotelContext() { }
     public DbSet<City> Cities { get; set; }
     public DbSet<Hotel> Hotels { get; set; }
     public DbSet<Room> Rooms { get; set; }
-
     public DbSet<User> Users { get; set; }
     public DbSet<Booking> Bookings { get; set; }
+    public TrybeHotelContext() { }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         string connectionString = "Server=localhost;Database=TrybeUser;User=SA;Password=TrybeHotel12!;TrustServerCertificate=True";
