@@ -10,11 +10,11 @@ public class Booking
   public DateTime CheckIn { get; set; }
   public DateTime CheckOut { get; set; }
   public int GuestQuant { get; set; }
-  [ForeignKey("UserId")]
+  [ForeignKey("User")]
   public int UserId { get; set; }
-  [ForeignKey("RoomId")]
+  [ForeignKey("Room")]
   public int RoomId { get; set; }
-  public ICollection<User>? User { get; set; }
-  public ICollection<Room>? Room { get; set; }
+  public User? User { get; set; }
+  public Room? Room { get; set; }
 
 }

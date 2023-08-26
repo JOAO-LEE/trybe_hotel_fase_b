@@ -11,6 +11,8 @@ public class Room
   public string? Image { get; set; }
   [ForeignKey("HotelId")]
   public int HotelId { get; set; }
+  public Hotel? Hotel { get; set; }
+  public ICollection<Booking>? Bookings { get; set; }
   public ICollection<Hotel>? Hotels { get; set; }
 
 }
