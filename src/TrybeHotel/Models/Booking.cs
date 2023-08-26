@@ -10,9 +10,9 @@ public class Booking
   public DateTime CheckIn { get; set; }
   public DateTime CheckOut { get; set; }
   public int GuestQuant { get; set; }
-  [ForeignKey("User")]
+  [ForeignKey("UserId")]
   public int UserId { get; set; }
-  [ForeignKey("Room")]
+  [ForeignKey("RoomId")]
   public int RoomId { get; set; }
   public User? User { get; set; }
   public Room? Room { get; set; }
