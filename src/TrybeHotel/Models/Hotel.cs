@@ -9,5 +9,4 @@ public class Hotel
   public string? Address { get; set; }
   public int CityId { get; set; }
   public ICollection<Room>? Rooms { get; set; }
-
 }

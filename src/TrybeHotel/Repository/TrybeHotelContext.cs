@@ -21,6 +21,8 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
         optionsBuilder.UseSqlServer(connectionString);
     }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder) { }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+    }
 
 }
