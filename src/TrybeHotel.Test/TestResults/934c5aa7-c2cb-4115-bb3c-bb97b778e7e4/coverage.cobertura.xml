@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.030600000000000002" branch-rate="0" version="1.9" timestamp="1693071673" lines-covered="25" lines-valid="815" branches-covered="0" branches-valid="4">
+<coverage line-rate="0" branch-rate="0" version="1.9" timestamp="1693252708" lines-covered="0" lines-valid="848" branches-covered="0" branches-valid="8">
   <sources>
     <source>/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/</source>
   </sources>
   <packages>
-    <package name="TrybeHotel" line-rate="0.030600000000000002" branch-rate="0" complexity="103">
+    <package name="TrybeHotel" line-rate="0" branch-rate="0" complexity="112">
       <classes>
-        <class name="Program" filename="Program.cs" line-rate="0.4807" branch-rate="0" complexity="2">
+        <class name="Program" filename="Program.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
-            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0.4807" branch-rate="0" complexity="2">
+            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="0" complexity="2">
               <lines>
-                <line number="12" hits="7" branch="False" />
-                <line number="16" hits="7" branch="False" />
-                <line number="17" hits="7" branch="False" />
-                <line number="18" hits="7" branch="False" />
-                <line number="19" hits="7" branch="False" />
-                <line number="20" hits="7" branch="False" />
-                <line number="21" hits="7" branch="False" />
-                <line number="22" hits="7" branch="False" />
-                <line number="23" hits="7" branch="False" />
-                <line number="26" hits="7" branch="False" />
-                <line number="27" hits="7" branch="False" />
-                <line number="28" hits="7" branch="False" />
-                <line number="29" hits="7" branch="False" />
-                <line number="30" hits="7" branch="False" />
-                <line number="33" hits="7" branch="False" />
-                <line number="34" hits="7" branch="False" />
-                <line number="35" hits="7" branch="False" />
-                <line number="37" hits="7" branch="False" />
-                <line number="39" hits="7" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
                 <line number="40" hits="0" branch="False" />
                 <line number="41" hits="0" branch="False" />
                 <line number="42" hits="0" branch="False" />
                 <line number="43" hits="0" branch="False" />
-                <line number="44" hits="7" branch="False" />
+                <line number="44" hits="0" branch="False" />
                 <line number="45" hits="0" branch="False" />
                 <line number="46" hits="0" branch="False" />
                 <line number="47" hits="0" branch="False" />
@@ -44,12 +44,12 @@
                 <line number="52" hits="0" branch="False" />
                 <line number="53" hits="0" branch="False" />
                 <line number="54" hits="0" branch="False" />
-                <line number="55" hits="7" branch="False" />
-                <line number="57" hits="7" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
                 <line number="58" hits="0" branch="False" />
-                <line number="59" hits="7" branch="False" />
-                <line number="60" hits="7" branch="False" />
-                <line number="62" hits="7" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
                 <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
                     <condition number="370" type="jump" coverage="0%" />
@@ -70,30 +70,30 @@
             </method>
           </methods>
           <lines>
-            <line number="12" hits="7" branch="False" />
-            <line number="16" hits="7" branch="False" />
-            <line number="17" hits="7" branch="False" />
-            <line number="18" hits="7" branch="False" />
-            <line number="19" hits="7" branch="False" />
-            <line number="20" hits="7" branch="False" />
-            <line number="21" hits="7" branch="False" />
-            <line number="22" hits="7" branch="False" />
-            <line number="23" hits="7" branch="False" />
-            <line number="26" hits="7" branch="False" />
-            <line number="27" hits="7" branch="False" />
-            <line number="28" hits="7" branch="False" />
-            <line number="29" hits="7" branch="False" />
-            <line number="30" hits="7" branch="False" />
-            <line number="33" hits="7" branch="False" />
-            <line number="34" hits="7" branch="False" />
-            <line number="35" hits="7" branch="False" />
-            <line number="37" hits="7" branch="False" />
-            <line number="39" hits="7" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
             <line number="40" hits="0" branch="False" />
             <line number="41" hits="0" branch="False" />
             <line number="42" hits="0" branch="False" />
             <line number="43" hits="0" branch="False" />
-            <line number="44" hits="7" branch="False" />
+            <line number="44" hits="0" branch="False" />
             <line number="45" hits="0" branch="False" />
             <line number="46" hits="0" branch="False" />
             <line number="47" hits="0" branch="False" />
@@ -104,12 +104,12 @@
             <line number="52" hits="0" branch="False" />
             <line number="53" hits="0" branch="False" />
             <line number="54" hits="0" branch="False" />
-            <line number="55" hits="7" branch="False" />
-            <line number="57" hits="7" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
             <line number="58" hits="0" branch="False" />
-            <line number="59" hits="7" branch="False" />
-            <line number="60" hits="7" branch="False" />
-            <line number="62" hits="7" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
             <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
                 <condition number="370" type="jump" coverage="0%" />
@@ -546,7 +546,7 @@
             <line number="16" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TrybeHotel.Repository.UserRepository" filename="Repository/UserRepository.cs" line-rate="0" branch-rate="1" complexity="6">
+        <class name="TrybeHotel.Repository.UserRepository" filename="Repository/UserRepository.cs" line-rate="0" branch-rate="0" complexity="7">
           <methods>
             <method name="GetUserById" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -564,18 +564,42 @@
               <lines>
                 <line number="23" hits="0" branch="False" />
                 <line number="24" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="GetUserByEmail" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
                 <line number="28" hits="0" branch="False" />
                 <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetUserByEmail" signature="(System.String)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="130" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
               </lines>
             </method>
             <method name="GetUsers" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="33" hits="0" branch="False" />
-                <line number="34" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(TrybeHotel.Repository.ITrybeHotelContext)" line-rate="0" branch-rate="1" complexity="1">
@@ -594,10 +618,34 @@
             <line number="20" hits="0" branch="False" />
             <line number="23" hits="0" branch="False" />
             <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
             <line number="28" hits="0" branch="False" />
             <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
             <line number="33" hits="0" branch="False" />
             <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="130" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
             <line number="9" hits="0" branch="False" />
             <line number="10" hits="0" branch="False" />
             <line number="11" hits="0" branch="False" />
@@ -1986,6 +2034,60 @@
             <line number="9" hits="0" branch="False" />
           </lines>
         </class>
+        <class name="TrybeHotel.Dto.UserDto" filename="Dto/UserDto.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_UserId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UserType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="6" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TrybeHotel.Dto.UserDtoInsert" filename="Dto/UserDto.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Password" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+          </lines>
+        </class>
         <class name="TrybeHotel.Controllers.BookingController" filename="Controllers/BookingController.cs" line-rate="0" branch-rate="1" complexity="3">
           <methods>
             <method name="Add" signature="(TrybeHotel.Dto.BookingDtoInsert)" line-rate="0" branch-rate="1" complexity="1">
@@ -2184,18 +2286,28 @@
             <line number="15" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TrybeHotel.Controllers.UserController" filename="Controllers/UserController.cs" line-rate="0" branch-rate="1" complexity="3">
+        <class name="TrybeHotel.Controllers.UserController" filename="Controllers/UserController.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
             <method name="GetUsers" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="0" branch="False" />
                 <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="Add" signature="(TrybeHotel.Dto.UserDtoInsert)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="Add" signature="(TrybeHotel.Dto.UserDtoInsert)" line-rate="0" branch-rate="0" complexity="2">
               <lines>
-                <line number="28" hits="0" branch="False" />
                 <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(TrybeHotel.Repository.IUserRepository)" line-rate="0" branch-rate="1" complexity="1">
@@ -2208,10 +2320,20 @@
             </method>
           </methods>
           <lines>
-            <line number="22" hits="0" branch="False" />
             <line number="23" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
             <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="25" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
             <line number="16" hits="0" branch="False" />
             <line number="17" hits="0" branch="False" />
             <line number="18" hits="0" branch="False" />
