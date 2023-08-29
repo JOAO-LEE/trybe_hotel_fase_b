@@ -25,13 +25,13 @@ namespace TrybeHotel.Repository
             _context.Bookings.Add(bookingSchedule);
             _context.SaveChanges();
             return (from bookings in _context.Bookings
-                    where bookings.RoomId == bookingSchedule.RoomId
+                    where bookings.BookingId == bookingSchedule.BookingId && bookings.RoomId == bookingSchedule.RoomId
                     join rooms in _context.Rooms on bookings.RoomId equals rooms.RoomId
                     join hotel in _context.Hotels on rooms.HotelId equals hotel.HotelId
                     join city in _context.Cities on hotel.CityId equals city.CityId
                     select new BookingResponse
                     {
-                        BookingId = bookingSchedule.BookingId,
+                        BookingId = bookings.BookingId,
                         CheckIn = bookings.CheckIn,
                         CheckOut = bookings.CheckOut,
                         GuestQuant = bookings.GuestQuant,
