@@ -20,7 +20,6 @@ namespace TrybeHotel.Repository
             var existingUser = _context.Users.FirstOrDefault(e => e.Email == login.Email && e.Password == login.Password);
             if (existingUser == null)
             {
-                Console.WriteLine(existingUser);
                 return null;
             }
             return new UserDto { UserId = existingUser.UserId, Email = existingUser.Email, Name = existingUser.Name, UserType = existingUser.UserType };
