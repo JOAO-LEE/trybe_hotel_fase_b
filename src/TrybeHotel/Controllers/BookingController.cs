@@ -32,19 +32,24 @@ namespace TrybeHotel.Controllers
             {
                 return BadRequest(new { message = "Guest quantity over room capacity" });
             }
-            if (email == null)
-            {
-                return StatusCode(403);
-            }
             var bookingSchedule = _repository.Add(bookingInsert, email);
             return Created("", bookingSchedule);
         }
 
 
-        [HttpGet("{Bookingid}")]
-        public IActionResult GetBooking(int Bookingid)
+        [HttpGet("{bookingId}")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Policy = "Client")]
+        public IActionResult GetBooking(int bookingId)
         {
-            throw new NotImplementedException();
+            var token = HttpContext.User.Identity as ClaimsIdentity;
+            var email = token?.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
+            var foundBooking = _repository.GetBooking(bookingId, email);
+            if (foundBooking == null)
+            {
+                return Unauthorized();
+            }
+            return Ok(foundBooking);
         }
     }
 }
