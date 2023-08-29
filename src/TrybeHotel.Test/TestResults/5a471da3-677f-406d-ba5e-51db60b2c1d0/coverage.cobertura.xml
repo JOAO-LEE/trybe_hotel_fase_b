@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0" branch-rate="0" version="1.9" timestamp="1693340013" lines-covered="0" lines-valid="964" branches-covered="0" branches-valid="32">
+<coverage line-rate="0" branch-rate="0" version="1.9" timestamp="1693347414" lines-covered="0" lines-valid="965" branches-covered="0" branches-valid="32">
   <sources>
     <source>/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/</source>
   </sources>
@@ -270,17 +270,19 @@
                 <line number="44" hits="0" branch="False" />
                 <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="139" type="jump" coverage="0%" />
+                    <condition number="149" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="46" hits="0" branch="False" />
                 <line number="47" hits="0" branch="False" />
                 <line number="50" hits="0" branch="False" />
-                <line number="51" hits="0" branch="False" />
+                <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="365" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
                 <line number="52" hits="0" branch="False" />
                 <line number="53" hits="0" branch="False" />
-                <line number="54" hits="0" branch="False" />
-                <line number="55" hits="0" branch="False" />
                 <line number="56" hits="0" branch="False" />
                 <line number="57" hits="0" branch="False" />
                 <line number="58" hits="0" branch="False" />
@@ -288,30 +290,29 @@
                 <line number="60" hits="0" branch="False" />
                 <line number="61" hits="0" branch="False" />
                 <line number="62" hits="0" branch="False" />
-                <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="2270" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
+                <line number="63" hits="0" branch="False" />
                 <line number="64" hits="0" branch="False" />
                 <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
                 <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
                 <line number="69" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
               </lines>
             </method>
             <method name="GetRoomById" signature="(System.Int32)" line-rate="0" branch-rate="0" complexity="2">
               <lines>
-                <line number="72" hits="0" branch="False" />
-                <line number="73" hits="0" branch="False" />
-                <line number="74" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
                     <condition number="39" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="75" hits="0" branch="False" />
-                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
                 <line number="78" hits="0" branch="False" />
-                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(TrybeHotel.Repository.ITrybeHotelContext)" line-rate="0" branch-rate="1" complexity="1">
@@ -354,17 +355,19 @@
             <line number="44" hits="0" branch="False" />
             <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="139" type="jump" coverage="0%" />
+                <condition number="149" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="46" hits="0" branch="False" />
             <line number="47" hits="0" branch="False" />
             <line number="50" hits="0" branch="False" />
-            <line number="51" hits="0" branch="False" />
+            <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="365" type="jump" coverage="0%" />
+              </conditions>
+            </line>
             <line number="52" hits="0" branch="False" />
             <line number="53" hits="0" branch="False" />
-            <line number="54" hits="0" branch="False" />
-            <line number="55" hits="0" branch="False" />
             <line number="56" hits="0" branch="False" />
             <line number="57" hits="0" branch="False" />
             <line number="58" hits="0" branch="False" />
@@ -372,26 +375,25 @@
             <line number="60" hits="0" branch="False" />
             <line number="61" hits="0" branch="False" />
             <line number="62" hits="0" branch="False" />
-            <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="2270" type="jump" coverage="0%" />
-              </conditions>
-            </line>
+            <line number="63" hits="0" branch="False" />
             <line number="64" hits="0" branch="False" />
             <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
             <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
             <line number="69" hits="0" branch="False" />
-            <line number="72" hits="0" branch="False" />
-            <line number="73" hits="0" branch="False" />
-            <line number="74" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="71" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
                 <condition number="39" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="75" hits="0" branch="False" />
-            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
             <line number="78" hits="0" branch="False" />
-            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
             <line number="9" hits="0" branch="False" />
             <line number="10" hits="0" branch="False" />
             <line number="11" hits="0" branch="False" />
@@ -2411,16 +2413,16 @@
                     <condition number="72" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="90" type="jump" coverage="0%" />
+                    <condition number="104" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="48" hits="0" branch="False" />
                 <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
                 <line number="52" hits="0" branch="False" />
-                <line number="57" hits="0" branch="False" />
-                <line number="58" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(TrybeHotel.Repository.IBookingRepository)" line-rate="0" branch-rate="1" complexity="1">
@@ -2460,16 +2462,16 @@
                 <condition number="72" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="90" type="jump" coverage="0%" />
+                <condition number="104" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="48" hits="0" branch="False" />
             <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
             <line number="52" hits="0" branch="False" />
-            <line number="57" hits="0" branch="False" />
-            <line number="58" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
             <line number="18" hits="0" branch="False" />
             <line number="19" hits="0" branch="False" />
             <line number="20" hits="0" branch="False" />
