@@ -39,9 +39,6 @@ namespace TrybeHotel.Repository
                     }).ToList().First();
         }
 
-        //  join hotel in _context.Hotels on room.HotelId equals hotel.HotelId
-        //             join city in _context.Cities on hotel.CityId equals city.CityId
-
         public BookingResponse GetBooking(int bookingId, string email)
         {
             throw new NotImplementedException();

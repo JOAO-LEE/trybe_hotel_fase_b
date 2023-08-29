@@ -32,6 +32,10 @@ namespace TrybeHotel.Controllers
             {
                 return BadRequest(new { message = "Guest quantity over room capacity" });
             }
+            if (email == null)
+            {
+                return StatusCode(403);
+            }
             var bookingSchedule = _repository.Add(bookingInsert, email);
             return Created("", bookingSchedule);
         }
