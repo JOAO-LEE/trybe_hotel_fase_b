@@ -31,7 +31,7 @@ namespace TrybeHotel.Repository
                     join city in _context.Cities on hotel.CityId equals city.CityId
                     select new BookingResponse
                     {
-                        BookingId = bookings.BookingId,
+                        BookingId = bookingSchedule.BookingId,
                         CheckIn = bookings.CheckIn,
                         CheckOut = bookings.CheckOut,
                         GuestQuant = bookings.GuestQuant,
