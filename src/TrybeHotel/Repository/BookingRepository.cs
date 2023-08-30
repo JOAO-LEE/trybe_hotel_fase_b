@@ -1,5 +1,6 @@
 using TrybeHotel.Models;
 using TrybeHotel.Dto;
+using Microsoft.Extensions.FileProviders;
 
 namespace TrybeHotel.Repository
 {
@@ -41,14 +42,12 @@ namespace TrybeHotel.Repository
 
         public BookingResponse GetBooking(int bookingId, string email)
         {
+            var foundBooking = _context.Bookings.Find(bookingId);
             var foundUser = _context.Users.First(e => e.Email == email);
-            if (foundUser == null)
-            {
-                return null;
-            }
 
-            var foundBooking = _context.Bookings.Where(e => e.BookingId == bookingId && foundUser.UserId == e.UserId).First();
-            if (foundBooking == null)
+
+            if (foundBooking.UserId != foundUser.UserId)
+
             {
                 return null;
             }
