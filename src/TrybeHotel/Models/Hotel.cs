@@ -12,5 +12,6 @@ public class Hotel
 
   [ForeignKey("CityId")]
   public int CityId { get; set; }
+  [ForeignKey("RoomId")]
   public ICollection<Room>? Rooms { get; set; }
 }
