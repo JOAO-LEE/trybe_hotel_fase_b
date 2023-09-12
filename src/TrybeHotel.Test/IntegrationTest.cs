@@ -82,7 +82,6 @@ public class IntegrationTest : IClassFixture<WebApplicationFactory<Program>>
         var response = await _clientTest.GetAsync(url);
         response.EnsureSuccessStatusCode();
         Assert.Equal(System.Net.HttpStatusCode.OK, response.StatusCode);
-
     }
 
     [Trait("Category", "City")]
@@ -151,5 +150,17 @@ public class IntegrationTest : IClassFixture<WebApplicationFactory<Program>>
         var response = await _clientTest.GetAsync(url);
         response.EnsureSuccessStatusCode();
         Assert.Equal(System.Net.HttpStatusCode.OK, response.StatusCode);
+    }
+
+    [Trait("Category", "User")]
+    [Theory(DisplayName = "1 - Testa se a rota POST de Login autentica um usuária existente com sucesso:")]
+    [InlineData("/login", "{\"email\":\"beatriz@trybehotel.com\",\"password\":\"Senha2\"}")]
+    public async Task TestAuthenticateSuccess(string url, string loginData)
+    {
+        var response = await _clientTest.PostAsync(url, new StringContent(loginData, System.Text.Encoding.UTF8, "application/json"));
+        response.EnsureSuccessStatusCode();
+        // var token = response.Content.ReadAsStringAsync();
+        Assert.Equal(System.Net.HttpStatusCode.OK, response.StatusCode);
+        // Assert.NotNull(token);
     }
 }
