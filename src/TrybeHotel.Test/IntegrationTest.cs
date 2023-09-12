@@ -159,8 +159,6 @@ public class IntegrationTest : IClassFixture<WebApplicationFactory<Program>>
     {
         var response = await _clientTest.PostAsync(url, new StringContent(loginData, System.Text.Encoding.UTF8, "application/json"));
         response.EnsureSuccessStatusCode();
-        // var token = response.Content.ReadAsStringAsync();
         Assert.Equal(System.Net.HttpStatusCode.OK, response.StatusCode);
-        // Assert.NotNull(token);
     }
 }
