@@ -34,7 +34,5 @@ namespace TrybeHotel.Controllers
             var createdHotel = _repository.AddHotel(hotel);
             return Created("", createdHotel);
         }
-
-
     }
 }

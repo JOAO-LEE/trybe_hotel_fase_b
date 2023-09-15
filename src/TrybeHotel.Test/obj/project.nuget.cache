@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FXLXfjqcN/dRbG38r9q978ufAmfsap3pmU8/nL3KGcw00ANU9Mt7LSmu1nA0+qkXu1msSVto8Of1QuqKcgBTvw==",
+  "dgSpecHash": "lf5GONsrPqpKi8CjLUkoyl1/3Q0fwmD9QlbaT/yAwGo+0R22DKWn2/0O+UvP2Z791kxdIpvPcdUDaAS5/WcpJA==",
   "success": true,
   "projectFilePath": "/home/joaolee/projetos-trybe/eletiva-csharp/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel.Test/TrybeHotel.test.csproj",
   "expectedPackageFiles": [

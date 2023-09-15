@@ -76,8 +76,8 @@ public class IntegrationTest : IClassFixture<WebApplicationFactory<Program>>
 
     [Trait("Category", "City")]
     [Theory(DisplayName = "1 - Testa se a rota GET de City traz todas as cidades:")]
-    [InlineData("/city", "[{\"cityId\":1,\"name\":\"Manaus\"},{\"cityId\":2,\"name\":\"Palmas\"}]")]
-    public async Task TestGetAllCities(string url, string expectedResult)
+    [InlineData("/city")]
+    public async Task TestGetAllCities(string url)
     {
         var response = await _clientTest.GetAsync(url);
         response.EnsureSuccessStatusCode();
@@ -91,11 +91,9 @@ public class IntegrationTest : IClassFixture<WebApplicationFactory<Program>>
     {
         var response = await _clientTest.PostAsync(url, new StringContent(cityToCreate, System.Text.Encoding.UTF8, "application/json"));
         response.EnsureSuccessStatusCode();
-        Assert.Equal(System.Net.HttpStatusCode.Created, response.StatusCode);
         string cityResponse = await response.Content.ReadAsStringAsync();
-        City cityResponseDeserialized = JsonConvert.DeserializeObject<City>(cityResponse);
-        Assert.Equal("Rio de Janeiro", cityResponseDeserialized.Name);
-        Assert.Equal(3, cityResponseDeserialized.CityId);
+        Assert.Equal(System.Net.HttpStatusCode.Created, response.StatusCode);
+        Assert.Equal(cityResponse, expectedCreatedCityResult);
     }
 
     [Trait("Category", "Hotel")]
@@ -153,12 +151,31 @@ public class IntegrationTest : IClassFixture<WebApplicationFactory<Program>>
     }
 
     [Trait("Category", "User")]
-    [Theory(DisplayName = "1 - Testa se a rota POST de Login autentica um usuária existente com sucesso:")]
+    [Theory(DisplayName = "8 - Testa se a rota POST de Login autentica um usuária existente com sucesso:")]
+    [InlineData("/login", "{\"email\":\"ana@trybehotel.com\",\"password\":\"Senha1\"}")]
     [InlineData("/login", "{\"email\":\"beatriz@trybehotel.com\",\"password\":\"Senha2\"}")]
+    [InlineData("/login", "{\"email\":\"laura@trybehotel.com\",\"password\":\"Senha3\"}")]
+
     public async Task TestAuthenticateSuccess(string url, string loginData)
     {
         var response = await _clientTest.PostAsync(url, new StringContent(loginData, System.Text.Encoding.UTF8, "application/json"));
         response.EnsureSuccessStatusCode();
+        var token = await response.Content.ReadAsStringAsync();
+        var tokenLength = token.Split(".");
         Assert.Equal(System.Net.HttpStatusCode.OK, response.StatusCode);
+        Assert.Equal<int>(tokenLength.Length, 3);
     }
+
+    
+    // [Trait("Category", "User")]
+    // [Theory(DisplayName = "9 - Testa se a rota POST de Login retorna não autoriza usuário com dados incorretos:")]
+    // [InlineData("/login", "{\"email\":\"a\",\"password\":\"Senha1\"}")]
+    // [InlineData("/login", "{\"email\":\"beatriz@trybehotel.com\",\"password\":\"a\"}")]
+    // [InlineData("/login", "{\"email\":\"laura@trybehotel.com\",\"password\":\"xxxx\"}")]
+    // public async Task TestAuthenticateFailed(string url, string loginData)
+    // {
+    //     var response = await _clientTest.PostAsync(url, new StringContent(loginData, System.Text.Encoding.UTF8, "application/json"));
+    //     // response.EnsureSuccessStatusCode();
+    //     Assert.Equal(System.Net.HttpStatusCode.Unauthorized, response.StatusCode);
+    // }
 }
